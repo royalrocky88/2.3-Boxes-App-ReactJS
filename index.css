@@ -1,0 +1,75 @@
+/* Write your code here. */
+
+* {
+  box-sizing: content-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  color: #0f172a;
+  font-size: 50px;
+  font-family: Roboto;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-box {
+  background-color: #fbbf24;
+  height: 60px;
+  width: 60px;
+  margin: 20px;
+}
+
+.m-box {
+  background-color: #38bdf8;
+  height: 120px;
+  width: 120px;
+  margin: 20px;
+}
+
+.l-box {
+  background-color: #ec4899;
+  height: 240px;
+  width: 240px;
+  margin: 20px;
+}
+
+.message {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Bree Sherif;
+  font-weight: bolder;
+}
+
+@media Screen and (max-width: 767px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media Screen and (min-width: 768px) and (max-width: 1200px) {
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
